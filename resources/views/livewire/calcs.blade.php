@@ -12,7 +12,7 @@ mount(function () {
         $this->operator = '-';
         $this->calcs = $this->firstNumber - $this->secondNumber;
     } elseif ($this->operator == 'multiplication') {
-        $this->operator = '*';
+        $this->operator = '×';
         $this->calcs = $this->firstNumber * $this->secondNumber;
     } elseif ($this->operator == 'division') {
         $this->operator = '/';
