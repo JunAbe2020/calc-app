@@ -7,4 +7,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Volt::route('/calc', 'calc');
+Volt::route('/calcs/{firstNumber}/{operator}/{secondNumber}', 'calcs');
